@@ -47,8 +47,7 @@ body {
 
 .apresentacao__texto-e-botoes__botoes {
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    gap: 30px;
 }
 
 .apresentacao__texto-e-botoes__botoes_botao {
