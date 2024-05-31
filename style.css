@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #F3FAE8;
+}
+
+.font-c352e9 {
+    color: #c352e9;
+}
+.font-c352e9-com-caixa {
+    color: #c352e9;
+    border: 1px solid #c352e9;
+    padding: 0.1% 0.5%;
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10% 20%;
+}
+
+.apresentacao__texto-e-botoes {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__texto-e-botoes__titulo {
+    font-size: 36px;
+    font-family: "Krona One", sans-serif;
+}
+
+.apresentacao__texto-e-botoes__paragrafo {
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.apresentacao__texto-e-botoes__botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__texto-e-botoes__botoes_botao {
+    width: 280px;
+    background-color: #c352e9;
+    border-radius: 16px;
+
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 650;
+
+    padding: 3.5% 0;
+}
+
+.apresentacao__texto-e-botoes__botoes_botao:hover {
+    transform: scale(1.04);
+    transition: 0.2s;
+}
+
+.imagem-perfil {
+    border-radius: 2%;
+    box-shadow: #c352e962 0px -10px 100px 1px;
+    opacity: 90%;
+    transform: scale(0.9);
+    transition: 0.8s;
+}
+
+.imagem-perfil:hover{
+    opacity: 100%;
+    transform: scale(0.95);
+    border-radius: 2%;
+    box-shadow: #c352e99f 0px -10px 100px 10px;
+    transition: 0.8s;
+}
